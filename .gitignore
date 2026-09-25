@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ / ツール内部設定
+.claude/
+
+# 作業用メモ（納品対象外）
+tasks/
