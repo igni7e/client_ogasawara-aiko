@@ -81,6 +81,7 @@ ul { padding: 0; list-style: none; }
 
 /* Quote (orange left bar) */
 .quote {
+  display: inline-block;
   border-left: 4px solid var(--orange);
   padding: 8px 0 8px 12px;
   font-size: 24px;
