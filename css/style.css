@@ -577,9 +577,11 @@ ul { padding: 0; list-style: none; }
   .nav-open .nav-toggle span:nth-child(2) { opacity: 0; }
   .nav-open .nav-toggle span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-  /* stacked layouts */
-  .hero-inner { flex-direction: column; gap: 0; }
-  .hero-copy { padding-bottom: 0; max-width: none; }
+  /* stacked layouts（タブレット以下: テキスト・写真とも中央寄せ）*/
+  .hero-inner { flex-direction: column; gap: 0; align-items: center; }
+  .hero-copy { padding-bottom: 0; max-width: none; width: 100%; text-align: center; }
+  .hero-copy > * { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
   .hero-figure { flex: none; width: 100%; max-width: 520px; margin-top: 24px; }
   .message-grid { grid-template-columns: 1fr; }
   .policy-grid { grid-template-columns: repeat(2, 1fr); }
